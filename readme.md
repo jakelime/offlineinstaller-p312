@@ -27,7 +27,10 @@ platform.uname()=uname_result(system='Windows', node='HLZBP02', release='10', ve
 
 1. Download as offline packages
 
-   `pip download -r requirements.txt`
+   ```
+   pip download --dest .\downloaded_wheels\ -r .\requirements.txt
+   pip download -r requirements.txt
+   ```
 
 1. On the offline system, use `pip install --no-index --find-links /path/to/download/dir/ -r requirements.txt`
 
