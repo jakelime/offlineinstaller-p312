@@ -36,6 +36,6 @@ platform.uname()=uname_result(system='Windows', node='HLZBP02', release='10', ve
 
    ```powershell
    git clone https://github.com/jakelime/offlineinstaller-p312.git
-   cd offlineinstaller-python101
-   pip install --no-index --find-links . -r requirements.txt
+   cd .\offlineinstaller-p312
+   pip install --no-index --find-links .\downloaded_wheels\ -r requirements.txt
    ```
