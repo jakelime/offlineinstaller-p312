@@ -52,3 +52,11 @@ using python setup.py install
 
 edit setup.py's requirements to remove
 nonsense error
+
+
+Updated fix:
+
+1. install setuptools first using `pip install setuptools-69.0.2-py3-none-any.whl --no-index`
+1. install `cssbeautifier-1.14.11.tar.gz`
+1. install `jsbeautifier-1.14.11.tar.gz`
+1. install everything, `pip install --no-index --find-links .\downloaded_wheels\ -r requirements.txt`
