@@ -27,7 +27,7 @@ platform.uname()=uname_result(system='Windows', node='HLZBP02', release='10', ve
 
 1. Download as offline packages
 
-   ```
+   ```powershell
    pip download --dest .\downloaded_wheels\ -r .\requirements.txt
    pip download -r requirements.txt
    ```
@@ -44,10 +44,10 @@ platform.uname()=uname_result(system='Windows', node='HLZBP02', release='10', ve
 
 During offline installation, you might encounter
 errors especially when it is an old wheel
-(.tar.gz). 
+(.tar.gz).
 
 When that happens, navigate to the wheel itself
-to run installation manually 
+to run installation manually
 using python setup.py install
 
 edit setup.py's requirements to remove
