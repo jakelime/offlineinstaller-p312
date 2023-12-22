@@ -20,6 +20,7 @@ dash-html-components==2.0.0
 dash-table==5.0.0
 distro==1.8.0
 Django==4.2.7
+django-bootstrap5==23.3
 django-crispy-forms==2.1
 django-filter==23.4
 django-tables2==2.6.0
