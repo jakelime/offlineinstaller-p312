@@ -53,7 +53,6 @@ using python setup.py install
 edit setup.py's requirements to remove
 nonsense error
 
-
 Updated fix:
 
 1. install setuptools first using `pip install setuptools-69.0.2-py3-none-any.whl --no-index`
