@@ -17,7 +17,6 @@ Brotli==1.1.0
 certifi==2024.2.2
 cffi==1.16.0
 charset-normalizer==3.3.2
-# chart-studio==1.1.0
 click==8.1.7
 colorama==0.4.6
 comm==0.2.1
@@ -47,6 +46,7 @@ inflate64==1.0.0
 iniconfig==2.0.0
 ipykernel==6.29.2
 ipython==8.21.0
+ipywidgets==8.1.2
 isoduration==20.11.0
 itsdangerous==2.1.2
 jedi==0.19.1
@@ -65,6 +65,7 @@ jupyter_server_terminals==0.5.2
 jupyterlab==4.1.0
 jupyterlab_pygments==0.3.0
 jupyterlab_server==2.25.2
+jupyterlab_widgets==3.0.10
 kiwisolver==1.4.5
 MarkupSafe==2.1.5
 matplotlib==3.8.2
@@ -171,5 +172,6 @@ webencodings==0.5.1
 websocket-client==1.7.0
 websockets==12.0
 Werkzeug==3.0.1
+widgetsnbextension==4.0.10
 wsproto==1.2.0
 zipp==3.17.0
