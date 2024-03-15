@@ -5,6 +5,7 @@ pip install seaborn
 pip install pyarrow
 pip install bokeh
 
+pip install python-dotenv
 pip install cryptography
 pip install tokenizers
 pip install pyflakes
@@ -52,4 +53,3 @@ pip install selenium
 
 pip install notebook
 pip install voila
-pip install dotenv-python
