@@ -22,7 +22,6 @@ pip install pyotp
 pip install lxml
 pip install natsort
 pip install py7zr
-pip install dotenv-python
 pip install pyinstaller
 pip install click
 pip install awscli
@@ -53,3 +52,4 @@ pip install selenium
 
 pip install notebook
 pip install voila
+pip install dotenv-python
