@@ -6,8 +6,7 @@ Built for `win10`
 
 ## Sytstem information
 
-```
-python
+```python
 platform.platform()='Windows-10-10.0.22621-SP0'
 platform.system()='Windows'
 platform.machine()='AMD64'
@@ -27,7 +26,7 @@ platform.uname()=uname_result(system='Windows', node='HLZBP02', release='10', ve
 
 1. Download as offline packages
 
-   ```
+   ```powershell
    pip download --dest .\downloaded_wheels\ -r .\requirements.txt
    pip download -r requirements.txt
    ```

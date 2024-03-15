@@ -7,7 +7,6 @@ pip install bokeh
 
 pip install cryptography
 pip install tokenizers
-pip install pylint
 pip install pyflakes
 pip install black
 pip install ruff
@@ -27,6 +26,7 @@ pip install dotenv-python
 pip install pyinstaller
 pip install click
 pip install awscli
+pip install pylint==2.13.9
 pip install h5py
 
 pip install anyio
@@ -50,3 +50,6 @@ pip install plotly
 pip install ipywidgets
 pip install beautifulsoup4
 pip install selenium
+
+pip install notebook
+pip install voila
