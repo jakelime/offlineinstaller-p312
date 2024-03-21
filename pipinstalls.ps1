@@ -25,8 +25,7 @@ pip install natsort
 pip install py7zr
 pip install pyinstaller
 pip install click
-pip install awscli
-pip install pylint==2.13.9
+pip install pylint
 pip install h5py
 
 pip install anyio
