@@ -52,3 +52,4 @@ pip install selenium
 
 pip install notebook
 pip install voila
+pip install spacy
