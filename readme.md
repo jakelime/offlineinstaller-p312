@@ -20,7 +20,7 @@ platform.uname()=uname_result(system='Windows', node='HLZBP02', release='10', ve
    ```powershell
    python -m venv venv
    .\venv\Scripts\activate
-   pip install .. .. ..
+   .\createenv.ps1 # pip install .. .. ..
    pip freeze > requirements.txt
    ```
 
