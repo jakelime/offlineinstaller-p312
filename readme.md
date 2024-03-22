@@ -37,3 +37,11 @@ platform.uname()=uname_result(system='Windows', node='HLZBP02', release='10', ve
    cd .\offlineinstaller-p312
    pip install --no-index --find-links .\downloaded_wheels\ -r requirements.txt
    ```
+
+## Other libraries
+
+```powershell
+.\venv\Scripts\activate
+cd .\downloaded_wheels\
+pip install --no-index --find-links . "en_core_web_sm-3.7.1-py3-none-any"
+```
