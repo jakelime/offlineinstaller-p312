@@ -44,7 +44,8 @@ pip install requests-oauthlib
 pip install pyjwt
 pip install uvicorn
 pip install gunicorn
-pip install "connexion[swagger-ui]"
+# pip install "connexion[swagger-ui]"
+pip install "connexion[swagger-ui,uvicorn,flask]"
 pip install waitress
 pip install mod-wsgi
 
