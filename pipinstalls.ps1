@@ -53,3 +53,6 @@ pip install selenium
 pip install notebook
 pip install voila
 pip install spacy
+python -m spacy download en_core_web_sm
+
+
