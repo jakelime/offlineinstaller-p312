@@ -38,5 +38,4 @@ pip install python-pptx
 pip install openpyxl
 pip install xlrd
 
-pip install pyqt5
-pip install customtkinter
+
